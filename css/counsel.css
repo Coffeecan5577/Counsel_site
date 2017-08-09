@@ -1,8 +1,45 @@
-html
+/*Color for navbar usage: #2f2d60; */
+
+.jumbotron
 {
-  background: url("C:/Users/ccurr/OneDrive/Pictures/Saved pictures/Web project Pics/Counsel Website Pics/jumbotron_img.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url("C:/Users/ccurr/OneDrive/Pictures/Saved pictures/Web project Pics/Counsel Website Pics/jumbotron_img_crop.jpg");
+  text-align: center;
+  margin-top: 50px;
+  color: #FFFFFF;
+}
+
+#email
+{
+  width: 300px;
+}
+
+#appSummary
+{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-img-top
+{
+  width: 100%;
+}
+
+#appStoreIcon
+{
+  width: 200px;
+}
+
+#footer
+{
+  background-color: aqua;
+  padding-top: 150px;
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+body
+{
+  position: relative;
 }
