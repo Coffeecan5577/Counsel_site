@@ -4,13 +4,18 @@
 {
   background-image: url("C:/Users/ccurr/OneDrive/Pictures/Saved pictures/Web project Pics/Counsel Website Pics/jumbotron_img_crop.jpg");
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 10px; */
   color: #FFFFFF;
 }
 
 #email
 {
   width: 300px;
+}
+
+.form-inline
+{
+  margin-left: 550px;
 }
 
 #appSummary
