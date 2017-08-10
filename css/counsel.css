@@ -4,6 +4,8 @@
 body
 {
   background-color: #182233;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
 }
 
 #jumbotron_intro
@@ -29,6 +31,9 @@ body
 .fade_text
 {
   display: none;
+  color: #bab032;
+  font-weight: bolder;
+  font-size: 300%;
 }
 
 #jumbotron_crd_services
@@ -48,66 +53,10 @@ body
 .card-title
 {
   text-align: center;
-}
 
-.btn_services_info
-{
-  background-color: #FFFFFF;
-  border-color: currentColor;
-  color: #000000;
-}
-
-.btn_services_info:hover
-{
-  background-color: transparent;
-  border-color: currentColor;
-  color: #FFFFFF;
-}
-
-
-#email
-{
-  width: 300px;
-}
-
-.form-inline
-{
-  margin-left: 550px;
-}
-
-#appSummary
-{
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.card-img-top
-{
-  width: 100%;
-}
-
-#appStoreIcon
-{
-  width: 200px;
-}
-
-#footer
-{
-  background-color: aqua;
-  padding-top: 150px;
-  margin-top: 50px;
-  text-align: center;
-  padding-bottom: 150px;
-}
-
-#heading_container
-{
-  font-family:sans-serif;
-}
-
-body
-{
-  position: relative;
-  font-family: 'Raleway', sans-serif;
+  border-color: #32aaba;
+  border-radius: 20px;
+  border-width: 15px;
+  border-style: ridge;
+  font-weight: bold;
 }
