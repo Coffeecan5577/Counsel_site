@@ -14,11 +14,11 @@
 
  <body data-spy="scroll" data-target="#navbar" data-offset="150">
    <!--First things first, navbar-->
-   <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+   <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
-   <a class="navbar-brand" href="#">Navbar</a>
+   <a class="navbar-brand" href="#">Scroll to bottom</a>
 
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
@@ -27,9 +27,6 @@
        </li>
        <li class="nav-item">
          <a class="nav-link" href="#">Link</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link disabled" href="#">Disabled</a>
        </li>
      </ul>
      <form class="form-inline my-2 my-lg-0">
@@ -44,7 +41,7 @@
 
     <!--Jumbotron next-->
     <div class="container-fluid">
-      <div class="jumbotron" id="jumbotron">
+      <div class="jumbotron" id="jumbotron_intro">
          <div id="jumbo_text">
             <h1 class="display-3">Darlene Curry, M.Ed., M.A., L.P.C.</h1>
             <h2 class="dislay-3">Licensed Professional Counselor</h2>
@@ -58,7 +55,40 @@
          </div>
       </div>
    </div>
-    <!-- Next is the text below the jumbotron -->
+    <!--Next up is the card deck section, listing services-->
+    <!--paragraph ID first for scrolling and navbar purposes -->
+    <p id="#service_link"></p>
+    <div class="container-fluid">
+      <div class="jumbotron" id="jumbotron_crd_services">
+         <div class="card-deck-wrapper">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-block">
+                  <h3 class="card-title">Services</h4>
+                  <p class="card-text">I'm a licensed professional counselor with over 10 years of experience helping children, adolescents, and adults work through some of life's challenging situations.  I strive  to help in a variety of areas:  depression, anxiety, self-harm, grief, marital issues, communication, pre-marital counseling, life coaching, and post-secondary readiness. </p>
+                  <btn class="btn btn-primary" name="btn_services_info" id="btn_services_info">More Info</btn>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+         </div>
+      </div>
+    </div>
 
 
 

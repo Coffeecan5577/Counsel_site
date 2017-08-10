@@ -1,8 +1,14 @@
 /*Color for navbar usage: #2f2d60; */
+/*background color for entire page: #182233; */
 
-.jumbotron
+body
 {
-  background-image: url("C:/Users/ccurr/OneDrive/Pictures/Saved pictures/Web project Pics/Counsel Website Pics/jumbotron_img_crop.jpg");
+  background-color: #182233;
+}
+
+#jumbotron_intro
+{
+  background-image: url("F:/Web_Projects/Counsel_site/Pics/jumbotron_img_crop.jpg");
 }
 
 #jumbo_text
@@ -23,6 +29,24 @@
 {
   display: none;
 }
+
+#jumbotron_crd_services
+{
+  background-image: url("F:/Web_Projects/Counsel_site/Pics/water_drops_crop.jpg");
+}
+
+.card-title
+{
+  text-align: center;
+}
+
+.btn .btn-primary
+{
+  align-self: center;
+  color: #05b525;
+
+}
+
 
 #email
 {
