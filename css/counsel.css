@@ -23,6 +23,7 @@ body
 #sub_heading_text
 {
   font-style: italic;
+  padding-bottom: 15px;
 }
 
 .fade_text
@@ -32,7 +33,16 @@ body
 
 #jumbotron_crd_services
 {
-  background-image: url("F:/Web_Projects/Counsel_site/Pics/water_drops_crop.jpg");
+  background-image: url("F:/Web_Projects/Counsel_site/Pics/ice_mountain_crop.jpg");
+  text-align: center;
+}
+
+.card
+{
+  background-color:transparent;
+  color: #FFFFFF;
+  border-color: currentColor;
+  font-size: 150%;
 }
 
 .card-title
@@ -40,11 +50,18 @@ body
   text-align: center;
 }
 
-.btn .btn-primary
+.btn_services_info
 {
-  align-self: center;
-  color: #05b525;
+  background-color: #FFFFFF;
+  border-color: currentColor;
+  color: #000000;
+}
 
+.btn_services_info:hover
+{
+  background-color: transparent;
+  border-color: currentColor;
+  color: #FFFFFF;
 }
 
 
