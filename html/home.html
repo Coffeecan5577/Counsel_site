@@ -7,7 +7,8 @@
 
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-   <link rel="stylesheet" href="F:\Web_Projects\Counsel_site\css\counsel.css" />
+   <link rel="stylesheet" href="F:/Web_Projects/Counsel_site/css/counsel.css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i" rel="stylesheet"> <!--Font reference -->
  </head>
 
@@ -22,8 +23,8 @@
 
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
-       <li class="nav-item">
-         <a class="nav-link" href="#service_link">Services</a>
+       <li class="nav-item" name="services">
+         <a class="nav-link" href="#service_link" id="service_tab">Services</a>
        </li>
        <li class="nav-item">
          <a class="nav-link" href="#about_link">About</a>
@@ -156,21 +157,22 @@
 
 
     <!--Next is the About section -->
+    <p id="about_link"></p>
     <div class="container">
       <h1 id="h1_about">About Me</h1>
       <div class="row">
-         <img class="rounded-circle mx-auto img-thumbnail" src="F:\Web_Projects\Counsel_site\pics\darlene_pic_crop.jpg" name="profile_pic" />
+         <img class="rounded-circle mx-auto img-thumbnail" src="F:/Web_Projects/Counsel_site/pics/darlene_pic_crop.jpg" name="profile_pic" />
       </div>
       <hr />
       <div class="row">
          <p id="p_about">
             I'm Darlene M. Curry, M.Ed., M.A., L.P.C.  I've had the opportunity to live in the panhandle of Texas for twenty plus years.  In that time I have taught high school English, served as District Counselor, served as an Elementary Principal, and my greatest joy--served as a licensed counselor.  My education includes a Bachelor of Science degree from Wayland Baptist University, a Master's In Education from Northwestern Oklahoma State University, and a Master's in Counseling from Wayland Baptist University.  I am licensed with the State Board of Professional Counselors and I have enjoyed serving the panhandle for the last ten years.  Helping people find their way is PURE JOY for me!  I love working with people of all ages.​
-My counseling office is located in Gruver, TX...a great little community with fantastic people.  I look forward to helping whoever I can as soon as I can!  If you have a need that is outside of my level of expertise I will work diligently to find someone that can give the help that is needed.  I've always enjoyed working one on one with people to help them solve problems.  My compassionate, therapeutic approach sets me apart from many others you will encounter.  My wealth of experience in and around various facets of education also sets me apart from other counselors.  Helping others find their way is a tremendous blessing.
+My counseling office is located in Gruver, TX...a great little community with fantastic people.  I look forward to helping whoever I can as soon as I can!  If you have a need that is outside of my level of expertise I will work diligently to find someone that can give the help that is needed.  I've always enjoyed working one on one with people to help them solve problems.  My compassionate, therapeutic approach sets me apart from many others you will encounter.  My wealth of experience in and around various facets of education also sets me apart from other counselors.  Helping others find their way is a tremendous blessing and my heart's desire is to be a help to those who are trying to find solutions on life's journey.
          </p>
       </div>
     </div>
 
-    <p id="about_link"></p>
+
 
    <!-- Now for the contact section, and the forms -->
    <div class="container-fluid">
@@ -192,36 +194,49 @@ My counseling office is located in Gruver, TX...a great little community with fa
                <h2 id="contact_info_4">806-736-0463</h2>
                <hr />
             </div>
+
             <div class="col-md-4">
-               <form class="form-inline" method="POST" id="contact_form">
+               <form class="form-inline"  id="ajax-contact" method="POST" action="mailer.php">
                  <div class="form-group">
-                   <input type="text" class="form-control" id="inputName" placeholder="Enter name">
+                   <input type="text" class="form-control" id="inputName" placeholder="Enter name" required>
                  </div>
                  <div class="form-group">
-                   <input type="tel" class="form-control" id="inputPhone" placeholder="Enter phone">
+                   <input type="text" class="form-control" id="inputPhone" placeholder="Enter phone" required>
                  </div>
                  <div class="form-group">
-                   <input type="textarea" class="form-control"id="inputMessage" placeholder="Enter message" />
+                   <textarea class="form-control" id="inputMessage" maxlength="100" placeholder="Enter message"></textarea>"
                  </div>
-                 <button type="submit" class="btn btn-success">Send Info</button>
+                 <button type="submit" class="btn btn-primary" id="btn_submit_info">Send Info</button>
               </form>
             </div>
          </div>
       </div>
    </div>
 
+   <p id="contact_link"></p>
+
+   <!--Now for the footer -->
+   <div class="container-fluid"> <!--include facebook link <href="" -->
+      <footer id="counsel_footer"> &copy; 2017 Created by Cale Curry using Bootstrap 4<a href="https://www.facebook.com/profile.php?id=100015351240038" target="blank"><i class=" icon-lock fa fa-facebook-square fa-3x text-right" id="facebook_link"></i></a></footer>
+   </div>
+
+    <!--Finally our music: -->
+    <audio autoplay loop src="C:/Users/ccurr/Music/Darlene Site files/RachmaninovRhapsodyonaThemebyPaganini.mp3"></audio>
 
 
-   <p id="#bottom"></p> <!--reference to bottom of page -->
    <!-- jQuery first, then Tether, then Bootstrap JS. -->
    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script type="text/javascript" src="http://creativecouple.github.com/jquery-timing/jquery-timing.min.js"></script>
-   <script type="javascript" src="F:\Web_Projects\Counsel_site\js\gmap.js"></script>
    <!--FontAwesome embed link -->
    <script src="https://use.fontawesome.com/e43661adf2.js"></script>
    <script src="F:/Web_Projects/Counsel_site/js/fade_trans.js"></script>
+   <script src="F:/Web_Projects/Counsel_site/js/scroll.js"
  </body>
 </html>
+
+<?php
+   include ("F:/Web_Projects/Counsel_site/php/mailer.php");
+?>

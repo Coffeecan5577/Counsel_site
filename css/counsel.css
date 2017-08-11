@@ -6,6 +6,7 @@ body
   background-color: #182233;
   position: relative;
   font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
 }
 
 #jumbotron_intro
@@ -106,6 +107,7 @@ li
   text-align: center;
   color: #000000;
   font-size: 200%;
+  font-weight: bold;
 }
 
 #contact_info_2
@@ -113,6 +115,7 @@ li
   text-align: center;
   color: #000000;
   font-size: 200%;
+  font-weight: bold;
 }
 
 #contact_info_3
@@ -120,6 +123,7 @@ li
   text-align: center;
   color: #000000;
   font-size: 200%;
+  font-weight: bold;
 }
 
 #contact_info_4
@@ -127,6 +131,7 @@ li
   text-align: center;
   color: #000000;
   font-size: 200%;
+  font-weight: bold;
 }
 
 #contact_form
@@ -134,4 +139,22 @@ li
   margin-right: 500px;
   padding: 20px;
   display: block;
+}
+
+#counsel_footer
+{
+  font-size: 200%;
+  padding-left: 50px;
+  line-height: 10px;
+}
+
+#facebook_link
+{
+  float: right;
+  line-height: 20px;
+}
+
+.nav-link
+{
+  color: #32aaba;
 }
