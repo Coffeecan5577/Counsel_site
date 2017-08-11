@@ -60,3 +60,78 @@ body
   border-style: ridge;
   font-weight: bold;
 }
+
+li
+{
+  text-align: left;
+}
+
+/* About section styling: */
+#h1_about
+{
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+}
+
+.rounded-circle
+{
+  width: 300px;
+  height: 300px;
+}
+
+#p_about
+{
+  color: #FFFFFF;
+  font-size: 125%;
+  text-align: center;
+}
+
+#jumbotron_contact
+{
+  background-image: url("F:/Web_Projects/Counsel_site/pics/jumbotron_contact_img.jpg");
+}
+
+#h1_contact
+{
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#contact_info_1
+{
+  text-align: center;
+  color: #000000;
+  font-size: 200%;
+}
+
+#contact_info_2
+{
+  text-align: center;
+  color: #000000;
+  font-size: 200%;
+}
+
+#contact_info_3
+{
+  text-align: center;
+  color: #000000;
+  font-size: 200%;
+}
+
+#contact_info_4
+{
+  text-align: center;
+  color: #000000;
+  font-size: 200%;
+}
+
+#contact_form
+{
+  margin-right: 500px;
+  padding: 20px;
+  display: block;
+}
