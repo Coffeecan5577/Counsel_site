@@ -7,7 +7,7 @@
 
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-   <link rel="stylesheet" href="public_html/css/counsel.css" />
+   <link rel="stylesheet" href="css/counsel.css" />
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i" rel="stylesheet"> <!--Font reference -->
  </head>
@@ -161,7 +161,7 @@
     <div class="container">
       <h1 id="h1_about">About Me</h1>
       <div class="row">
-         <img class="rounded-circle mx-auto img-thumbnail" src="public_html/pics/darlene_pic_crop.jpg" name="profile_pic" />
+         <img class="rounded-circle mx-auto img-thumbnail" src="pics/darlene_pic_crop.jpg" name="profile_pic" />
       </div>
       <hr />
       <div class="row">
@@ -182,7 +182,7 @@ My counseling office is located in Gruver, TX...a great little community with fa
          <hr />
          <div class="row">
             <div class="col-md-4">
-               <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBCWVGWrR4Te-usNr1DnbopLBpi_fiBxCo&q=430+Main+Ave" allowfullscreen></iframe>
+               <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBCWVGWrR4Te-usNr1DnbopLBpi_fiBxCo&q=430+Main+Ave+Gruver" allowfullscreen></iframe>
             </div>
             <div class="col-md-4">
                <h2 id="contact_info_1">Darlene M. Curry, M.Ed., M.A., L.P.C.</h2>
@@ -221,22 +221,21 @@ My counseling office is located in Gruver, TX...a great little community with fa
    </div>
 
     <!--Finally our music: -->
-    <audio autoplay loop src="public_html/music_files/RachmaninovRhapsodyonaThemebyPaganini.mp3"></audio>
+    <audio autoplay loop src="music_files/RachmaninovRhapsodyonaThemebyPaganini.mp3"></audio>
 
 
    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script type="text/javascript" src="http://creativecouple.github.com/jquery-timing/jquery-timing.min.js"></script>
+   <script src="http://creativecouple.github.com/jquery-timing/jquery-timing.min.js"></script>
    <!--FontAwesome embed link -->
    <script src="https://use.fontawesome.com/e43661adf2.js"></script>
-   <script src="public_html/js/fade_trans.js"></script>
-   <script src="public_html/js/scroll.js"></script>
+   <script src="/js/fade_trans.js"></script>
+   <script src="/js/scroll.js"></script>
  </body>
 </html>
 
 <?php
-   include ("public_html/html/mailer.php");
+   include ("html/mailer.php");
 ?>

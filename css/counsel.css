@@ -11,7 +11,7 @@ body
 
 #jumbotron_intro
 {
-  background-image: url("F:/Web_Projects/Counsel_site/Pics/jumbotron_img_crop.jpg");
+  background-image: url("/pics/jumbotron_img_crop.jpg");
 }
 
 #jumbo_text
@@ -39,7 +39,7 @@ body
 
 #jumbotron_crd_services
 {
-  background-image: url("F:/Web_Projects/Counsel_site/Pics/ice_mountain_crop.jpg");
+  background-image: url("/pics/ice_mountain_crop.jpg");
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ li
 
 #jumbotron_contact
 {
-  background-image: url("F:/Web_Projects/Counsel_site/pics/jumbotron_contact_img.jpg");
+  background-image: url("/pics/jumbotron_contact_img.jpg");
 }
 
 #h1_contact
