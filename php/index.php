@@ -19,7 +19,7 @@
    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
-   <a class="navbar-brand" href="#">Back to top</a>
+   <a class="navbar-brand" href="#Top_of_page">Back to top</a>
 
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
@@ -27,10 +27,10 @@
          <a class="nav-link" href="#service_link" id="service_tab">Services</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#about_link">About</a>
+         <a class="nav-link" href="#about_link" id="about_tab">About</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#contact_link">Contact</a>
+         <a class="nav-link" href="#contact_link" id-="contact_tab">Contact</a>
        </li>
      </ul>
    </div>
@@ -182,7 +182,7 @@ My counseling office is located in Gruver, TX...a great little community with fa
          <hr />
          <div class="row">
             <div class="col-md-4">
-               <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBCWVGWrR4Te-usNr1DnbopLBpi_fiBxCo&q=430+Main+Ave+Gruver" allowfullscreen></iframe>
+               <iframe width="600" height="450" id="map_local" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBCWVGWrR4Te-usNr1DnbopLBpi_fiBxCo&q=430+Main+Ave+Gruver" allowfullscreen></iframe>
             </div>
             <div class="col-md-4">
                <h2 id="contact_info_1">Darlene M. Curry, M.Ed., M.A., L.P.C.</h2>
@@ -228,7 +228,7 @@ My counseling office is located in Gruver, TX...a great little community with fa
    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="http://creativecouple.github.com/jquery-timing/jquery-timing.min.js"></script>
+   <script src="/js/jquery_timing_min.js"></script>
    <!--FontAwesome embed link -->
    <script src="https://use.fontawesome.com/e43661adf2.js"></script>
    <script src="/js/fade_trans.js"></script>

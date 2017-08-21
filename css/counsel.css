@@ -102,6 +102,11 @@ li
   color: #FFFFFF;
 }
 
+#map_local
+{
+  width: 100%;
+}
+
 #contact_info_1
 {
   text-align: center;
@@ -137,7 +142,7 @@ li
 #contact_form
 {
   margin-right: 500px;
-  padding: 20px;
+  padding: 10px;
   display: block;
 }
 
