@@ -24,13 +24,13 @@
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
        <li class="nav-item" name="services">
-         <a class="nav-link" href="#service_link" id="service_tab">Services</a>
+         <a class="nav-link" href="#service_link">Services</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#about_link" id="about_tab">About</a>
+         <a class="nav-link" href="#about_link">About</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#contact_link" id-="contact_tab">Contact</a>
+         <a class="nav-link" href="#contact_link">Contact</a>
        </li>
      </ul>
    </div>
@@ -225,10 +225,11 @@ My counseling office is located in Gruver, TX...a great little community with fa
 
 
    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="/js/jquery_timing_min.js"></script>
+   <script src="/js/jquery.scrollTo-2.1.2/jquery.scrollTo-2.1.2/jquery.scrollTo.min.js"></script>
    <!--FontAwesome embed link -->
    <script src="https://use.fontawesome.com/e43661adf2.js"></script>
    <script src="/js/fade_trans.js"></script>
