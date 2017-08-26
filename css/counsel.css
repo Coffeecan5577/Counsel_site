@@ -139,11 +139,12 @@ li
   font-weight: bold;
 }
 
-#contact_form
+.form-group
 {
-  margin-right: 500px;
-  padding: 10px;
+  text-align: center;
+  padding: 2px;
   display: block;
+  width: 100%;
 }
 
 #counsel_footer

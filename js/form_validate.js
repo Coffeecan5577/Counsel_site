@@ -22,12 +22,7 @@ $("#btn_submit_info").click(function()
   if (fieldsMissing != "")
   {
     errorMessage += "<p>The following field(s) are missing:" + fieldsMissing;
-  }
-
-
-  if ($.isNumeric($("#phone").val()) == false)
-  {
-    errorMessage += "<p>Your phone number is not numeric.</p>";
+    return false;
   }
 
 
@@ -42,32 +37,3 @@ $("#btn_submit_info").click(function()
   }
 
 });
-
-$(function()
-{
-  // Get the form.
-  var form = $('#ajax-contact');
-});
-
-//Setup event listener for the contact form:
-$(form).submit(function(event)
-{
-  return false;
-});
-
-//Serialize form data:
-var formData = $(form).serialize();
-
-// Submit the form using AJAX.
-$.ajax({
-    type: 'POST',
-    url: $(form).attr('action'),
-    data: formData
-})
-.done(function(response)
-{
-  // Clear the form.
-    $('#name').val('');
-    $('#email').val('');
-    $('#message').val('');
-})

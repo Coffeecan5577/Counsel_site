@@ -1,3 +1,7 @@
+<?php
+   include ("php/form_validate.php");
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -195,18 +199,22 @@ My counseling office is located in Gruver, TX...a great little community with fa
                <hr />
             </div>
 
+            <!--Error and success message divs for form validation -->
+         <div id="successMessage"></div>
+         <div id="errorMessage"></div>
+
             <div class="col-md-4">
-               <form class="form-inline"  id="ajax-contact" method="POST" action="mailer.php">
+               <form class="form-inline"  id="ajax-contact" method="POST" action="html/mailer.php">
                  <div class="form-group">
-                   <input type="text" class="form-control" id="inputName" placeholder="Enter name" required>
+                   <input type="text" class="form-control" id="inputName" name="name" placeholder="Enter name" required>
                  </div>
                  <div class="form-group">
-                   <input type="text" class="form-control" id="inputPhone" placeholder="Enter phone" required>
+                   <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Enter phone" required>
                  </div>
                  <div class="form-group">
-                   <textarea class="form-control" id="inputMessage" maxlength="100" placeholder="Enter message"></textarea>"
+                   <textarea class="form-control" id="inputMessage" maxlength="100" name="message" placeholder="Enter message" required></textarea>"
                  </div>
-                 <button type="submit" class="btn btn-primary" id="btn_submit_info">Send Info</button>
+                 <button type="submit" class="btn btn-primary float-right" id="btn_submit_info">Send Info</button>
               </form>
             </div>
          </div>
@@ -221,7 +229,7 @@ My counseling office is located in Gruver, TX...a great little community with fa
    </div>
 
     <!--Finally our music: -->
-    <audio autoplay loop src="music_files/RachmaninovRhapsodyonaThemebyPaganini.mp3"></audio>
+    <!--<audio autoplay loop src="music_files/RachmaninovRhapsodyonaThemebyPaganini.mp3"></audio>-->
 
 
    <!-- jQuery first, then Tether, then Bootstrap JS. -->
@@ -233,10 +241,7 @@ My counseling office is located in Gruver, TX...a great little community with fa
    <!--FontAwesome embed link -->
    <script src="https://use.fontawesome.com/e43661adf2.js"></script>
    <script src="/js/fade_trans.js"></script>
-   <script src="/js/scroll.js"></script>
+   <script src="/js/ajax_submit.js"></script>
+   <script src="/js/form_validate.js"></script>
  </body>
 </html>
-
-<?php
-   include ("html/mailer.php");
-?>
