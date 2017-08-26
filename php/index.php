@@ -8,6 +8,7 @@
    <!-- Required meta tags -->
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Professional Counseling</title>
 
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -229,7 +230,7 @@ My counseling office is located in Gruver, TX...a great little community with fa
    </div>
 
     <!--Finally our music: -->
-    <!--<audio autoplay loop src="music_files/RachmaninovRhapsodyonaThemebyPaganini.mp3"></audio>-->
+    <audio autoplay loop src="music_files/RachmaninovRhapsodyonaThemebyPaganini.mp3"></audio>
 
 
    <!-- jQuery first, then Tether, then Bootstrap JS. -->
