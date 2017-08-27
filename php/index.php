@@ -210,7 +210,7 @@ My counseling office is located in Gruver, TX...a great little community with fa
                    <input type="text" class="form-control" id="inputName" name="name" placeholder="Enter name" required>
                  </div>
                  <div class="form-group">
-                   <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Enter phone" required>
+                   <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Enter phone #" required>
                  </div>
                  <div class="form-group">
                    <textarea class="form-control" id="inputMessage" maxlength="100" name="message" placeholder="Enter message" required></textarea>"
@@ -243,6 +243,5 @@ My counseling office is located in Gruver, TX...a great little community with fa
    <script src="https://use.fontawesome.com/e43661adf2.js"></script>
    <script src="/js/fade_trans.js"></script>
    <script src="/js/ajax_submit.js"></script>
-   <script src="/js/form_validate.js"></script>
  </body>
 </html>

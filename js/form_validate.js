@@ -7,22 +7,24 @@ $("#btn_submit_info").click(function()
   if ($("#inputName").val() == "")
   {
     fieldsMissing += "<br>Name";
+    return false;
   }
 
   if ($("#inputPhone").val() == "")
   {
     fieldsMissing += "<br>Telephone";
+    return false;
   }
 
   if ($("#inputMessage").val() == "")
   {
     fieldsMissing += "<br>Message";
+    return false;
   }
 
   if (fieldsMissing != "")
   {
     errorMessage += "<p>The following field(s) are missing:" + fieldsMissing;
-    return false;
   }
 
 

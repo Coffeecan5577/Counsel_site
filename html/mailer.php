@@ -7,14 +7,13 @@
         {
             $nameErr = "Name is required";
         }
+        else if (!preg_match("/^[a-zA-Z ]*$/",$name))
+        {
+            $nameErr = "Only letters and white space allowed";
+        }
         else
         {
-            $name = test_input($_POST["name"]);
-            // check if name only contains letters and whitespace
-            if (!preg_match("/^[a-zA-Z ]*$/",$name))
-            {
-                $nameErr = "Only letters and white space allowed";
-            }
+            $name = $_POST["name"];
         }
 
         if (empty($_POST["phone"]))
@@ -31,14 +30,13 @@
         {
             $messageErr = "Message is required";
         }
+        else if (!preg_match("/^[a-zA-Z ]*$/",$message))
+        {
+            $messageErr = "Only letters and white space allowed";
+        }
         else
         {
-            $message = test_input($_POST["message"]);
-            // check if name only contains letters and whitespace
-            if (!preg_match("/^[a-zA-Z ]*$/",$message))
-            {
-                $messageErr = "Only letters and white space allowed";
-            }
+            $message = $_POST["message"];
         }
 
         // Set the recipient email address.
@@ -49,14 +47,13 @@
         $subject = "New Client Info";
 
         // Build the email content.
-        $email_content = "Name:" . $name . "\n";
-        $email_content .= "Phone:" . $phone . "\n\n";
-        $email_content .= "Message:" . "\n" . $message . "\n";
+        $email_content = "Name: " . $name . "\n";
+        $email_content .= "Phone: " . $phone . "\n\n";
+        $email_content .= "Message: " . $message . "\n";
 
         // Build the email headers.
-        $email_headers = "From:" . $name;
+        $email_headers = "From: " . $name;
 
-        mail($recipient, $subject, $email_content, $email_headers);
 
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers))
