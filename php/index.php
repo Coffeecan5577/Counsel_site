@@ -1,7 +1,3 @@
-<?php
-   include ("php/form_validate.php");
- ?>
-
 <!DOCTYPE html>
 <html lang="en">
  <head>
